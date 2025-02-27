@@ -543,3 +543,36 @@
   .client__card:hover h5 {
     color: var(--extra-light);
   }
+
+
+  footer {
+    background-color: var(--extra-light);
+  }
+  
+  .footer__container {
+    display: grid;
+    gap: 4rem 2rem;
+  }
+  
+  .footer__col p {
+    max-width: 300px;
+    margin-block: 2rem;
+    color: var(--text-light);
+  }
+
+  .footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .footer__socials a {
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 1.25rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 100%;
+  }
+  
