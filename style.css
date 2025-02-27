@@ -427,3 +427,21 @@
   .banner__card p {
     color: var(--text-light);
   }
+
+
+  .discover__grid {
+    margin-top: 4rem;
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .discover__card {
+    padding: 2rem 1rem;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 1rem;
+  }
+  
+  .discover__card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  }
