@@ -71,6 +71,13 @@
     display: flex;
     width: 100%;
   }
+
+  .plane {
+    display: flex;
+    width: 30%;
+    opacity: 50%;
+    
+  }
   
   a {
     text-decoration: none;
