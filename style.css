@@ -289,3 +289,39 @@
   .destination__card:hover .destination__rating {
     background-color: var(--primary-color-dark);
   }
+
+
+
+  .journey__grid {
+    margin-top: 2rem;
+    display: grid;
+    gap: 0 1rem;
+  }
+  
+  .journey__card {
+    position: relative;
+    isolation: isolate;
+    padding-top: 4rem;
+    overflow: hidden;
+  }
+  
+  .journey__card__bg {
+    padding: 2rem;
+    background-color: var(--extra-light);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+
+
+  .journey__card__bg span {
+    display: inline-block;
+    margin-bottom: 4rem;
+    font-size: 1.75rem;
+    color: var(--primary-color);
+  }
+  
+  .journey__card__bg h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
