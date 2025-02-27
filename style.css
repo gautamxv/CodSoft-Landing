@@ -343,3 +343,24 @@
   .journey__card:hover .journey__card__content {
     top: 0;
   }
+
+  .journey__card__content span {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 7px 9px;
+    font-size: 1rem;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 100%;
+  }
+  
+  .journey__card__content h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white);
+  }
+  
+  .journey__card__content p {
+    color: var(--extra-light);
+  }
