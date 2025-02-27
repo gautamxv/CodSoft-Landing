@@ -326,4 +326,20 @@
     color: var(--text-dark);
   }
 
+  .journey__card__content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    transition: 0.3s;
+  }
   
+
+  .journey__card:hover .journey__card__content {
+    top: 0;
+  }
