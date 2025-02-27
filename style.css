@@ -623,3 +623,20 @@
     border: 1px solid var(--text-light);
     border-radius: 5px;
   }
+
+
+  .footer__col input::placeholder {
+    color: var(--text-light);
+  }
+  
+  .footer__col .btn {
+    border-radius: 5px;
+  }
+  
+
+  .footer__bar {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    text-align: center;
+  }
