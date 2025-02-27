@@ -152,3 +152,16 @@
   .nav__links a:hover {
     color: var(--text-dark);
   }
+
+
+  .nav__btns {
+    display: none;
+  }
+
+  header {
+    margin-top: 5rem;
+    padding-inline: 1rem;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+  }
